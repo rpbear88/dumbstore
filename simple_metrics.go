@@ -5,7 +5,7 @@ import "math"
 import "time"
 
 type IoMetrics struct {
-	interval int 					// Stat interval(in second)
+	interval int					// Stat interval(in second)
 	thp int64							// IO throughput(MB/s)
 	latency *Latency			// Write latency(in microsecond)
 }
